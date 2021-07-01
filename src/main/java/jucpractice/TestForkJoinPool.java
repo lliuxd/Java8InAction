@@ -1,6 +1,5 @@
 package jucpractice;
 
-import org.junit.Test;
 
 import java.time.Duration;
 import java.time.Instant;
@@ -27,7 +26,6 @@ public class TestForkJoinPool {
         System.out.println("耗费时间为：" + Duration.between(start, end).toMillis());//2709  拆分也需要时间
     }
 
-    @Test
     public void test1(){
         Instant start = Instant.now();
 
@@ -45,7 +43,6 @@ public class TestForkJoinPool {
     }
 
     //java8 新特性
-    @Test
     public void test2(){
         Instant start = Instant.now();
 
