@@ -8,6 +8,7 @@ public class TestProductAndConsumer {
 class Product implements Runnable{
     @Override
     public void run() {
+        System.out.println("hh");
 
     }
 }
