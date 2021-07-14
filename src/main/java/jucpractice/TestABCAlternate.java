@@ -66,7 +66,7 @@ class AlternateDem1o{
             //1. 判断
             if(number != 1){
                 System.out.println("A await");
-                condition1.await();		//线程B等待
+                condition1.await();		//线程A等待
             }
 
             //2. 打印
